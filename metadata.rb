@@ -1,3 +1,4 @@
+name             "confluence"
 maintainer       "SecondMarket Labs, LLC"
 maintainer_email "systems@secondmarket.com"
 license          "Apache 2.0"
