@@ -91,4 +91,6 @@ end
 service "confluence" do
   supports :restart => true
   action [:enable, :start]
+  # TODO: find out why startup triggers fail
+  ignore_failure true
 end
